@@ -1,0 +1,67 @@
+# yaml-language-server: $schema=https://squidfunk.github.io/mkdocs-material/schema.json
+
+site_name: blog.samake.se
+
+site_dir: public
+
+site_url: https://blog.samake.se
+
+# site_description: LysDocs är en samling guider och dokumentation för datorföreningen Lysators olika system.
+
+# repo_url: https://git.lysator.liu.se//lysdocs
+# repo_name: lysdocs/lysdocs
+
+theme:
+  name: material
+  custom_dir: overrides
+  # favicon: assets/lysdocs.svg
+  # logo: assets/lysdocs.svg
+  features:
+    - header.autohide
+    - navigation.instant
+    - navigation.footer
+    - navigation.indexes
+    - content.action.edit
+    - navigation.sections
+    - content.code.copy
+  language: sv
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: yellow
+      toggle:
+        icon: octicons/sun-16
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: yellow
+      toggle:
+        icon: octicons/moon-16
+        name: Switch to light mode
+  font:
+    text: Hanken Grotesk
+
+extra_css:
+  - extra.css
+
+extra:
+  social:
+    - icon: fontawesome/solid/globe
+      link: https://samake.se
+
+plugins:
+  - search
+  - tags
+  - open-in-new-tab
+  - git-revision-date-localized:
+      enabled: !ENV [IS_PRODUCTION, false]
+      type: timeago
+
+markdown_extensions:
+  - footnotes
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - sane_lists
