@@ -23,6 +23,8 @@ jobs:
         with:
           enable-cache: true
           cache-dependency-glob: requirements.txt
+
+      - run: uv pip install -r requirements.txt
       
       - run: uv run mkdocs build
 
