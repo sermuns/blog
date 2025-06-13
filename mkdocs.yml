@@ -6,16 +6,11 @@ site_dir: public
 
 site_url: https://blog.samake.se
 
-# site_description: LysDocs är en samling guider och dokumentation för datorföreningen Lysators olika system.
-
-# repo_url: https://git.lysator.liu.se//lysdocs
-# repo_name: lysdocs/lysdocs
-
 theme:
   name: material
   custom_dir: overrides
-  # favicon: assets/lysdocs.svg
-  # logo: assets/lysdocs.svg
+  font:
+    text: Hanken Grotesk
   features:
     - header.autohide
     - navigation.instant
@@ -37,8 +32,6 @@ theme:
       toggle:
         icon: octicons/moon-16
         name: Switch to light mode
-  font:
-    text: Hanken Grotesk
 
 extra_css:
   - extra.css
@@ -54,9 +47,6 @@ plugins:
   - search
   - tags
   - open-in-new-tab
-  - git-revision-date-localized:
-      enabled: !ENV [IS_PRODUCTION, false]
-      type: timeago
 
 markdown_extensions:
   - footnotes
