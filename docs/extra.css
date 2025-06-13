@@ -9,23 +9,7 @@
 	background-size: contain;
 	display: inline-block;
 	vertical-align: text-top;
-	filter: invert(50%); /* make gray */
-}
-
-@font-face {
-	font-family: "MonaspiceKr NF";
-	src: url("/assets/MonaspiceKrNerdFont-Regular.woff2") format("woff2");
-	font-weight: normal;
-	font-style: normal;
-	font-display: swap;
-}
-
-:root {
-	--md-code-font: "MonaspiceKr NF";
-}
-
-body[data-md-color-scheme="slate"] main img[src$=".dg.png"] {
-	filter: invert(1);
+	filter: invert(50%);
 }
 
 article {

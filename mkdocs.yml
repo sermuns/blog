@@ -24,7 +24,6 @@ theme:
     - content.action.edit
     - navigation.sections
     - content.code.copy
-  language: sv
   palette:
     - media: "(prefers-color-scheme: light)"
       scheme: default
@@ -50,6 +49,8 @@ extra:
       link: https://samake.se
 
 plugins:
+  - blog:
+      blog_dir: .
   - search
   - tags
   - open-in-new-tab

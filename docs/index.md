@@ -16,3 +16,5 @@ This page is built with [Material for MkDocs](https://squidfunk.github.io/mkdocs
 - <kbd>F</kbd>, <kbd>S</kbd> or <kbd>/</kbd> opens the search bar.
 - <kbd>P</kbd> or <kbd>,</kbd> navigates to the previous page.
 - <kbd>N</kbd> or <kbd>.</kbd> navigates to the next page.
+
+---
