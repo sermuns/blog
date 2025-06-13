@@ -24,8 +24,10 @@ jobs:
           enable-cache: true
           cache-dependency-glob: requirements.txt
 
-      - run: uv pip install -r requirements.txt
-      
+      - run: |
+          uv venv
+          uv pip install -r requirements.txt
+
       - run: uv run mkdocs build
 
       - uses: actions/configure-pages@v4
