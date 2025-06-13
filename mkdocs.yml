@@ -22,13 +22,13 @@ theme:
   palette:
     - media: "(prefers-color-scheme: light)"
       scheme: default
-      primary: yellow
+      primary: green
       toggle:
         icon: octicons/sun-16
         name: Switch to dark mode
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
-      primary: yellow
+      primary: green
       toggle:
         icon: octicons/moon-16
         name: Switch to light mode
