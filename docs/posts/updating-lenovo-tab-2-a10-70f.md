@@ -3,9 +3,10 @@ title: Updating a Lenovo TAB 2 A10-70F from Android 4.4.4 to Android 6
 date: 2025-06-13
 ---
 
-![](https://p1-ofp.static.pub/fes/cms/2022/09/26/w1q3dnxxoyjd6qwd88lxfx99ilb1tz292972.png)
-
 I was trying to revive an old Android tablet. The biggest problem was that it couldn't access any webpages due to "expired certificate" errors.
+<!-- more -->
+
+![](https://p1-ofp.static.pub/fes/cms/2022/09/26/w1q3dnxxoyjd6qwd88lxfx99ilb1tz292972.png)
 
 ## ADB
 
